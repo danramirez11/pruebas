@@ -1,0 +1,31 @@
+.scroll-area {
+  position: relative;
+  overflow: hidden;
+}
+
+.scroll-area-viewport {
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.scroll-area-viewport::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-area-scrollbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  padding: 2px;
+  background-color: transparent;
+  transition: background-color 0.2s;
+}
+
+.scroll-area-scrollbar:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}

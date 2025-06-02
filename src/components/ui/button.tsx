@@ -3,20 +3,20 @@ import './button.css';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'default' | 'ghost' | 'icon';
-  asChild?: boolean;
 }
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant = 'default', asChild = false, ...props }, ref) => {
-    const Comp = asChild ? Slot : "button";
+  ({ className = '', variant = 'default', children, ...props }, ref) => {
     const variantClass = `button-${variant}`;
     
     return (
-      <Comp
-        className={`button ${variantClass} ${className || ''}`}
+      <button
+        className={`button ${variantClass} ${className}`}
         ref={ref}
         {...props}
-      />
+      >
+        {children}
+      </button>
     );
   }
 );
