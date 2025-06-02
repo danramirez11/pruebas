@@ -5,7 +5,6 @@ import {
 import { Button } from "../../components/ui/button";
 import {
   DropdownMenu,
-  DropdownMenuContent,
   DropdownMenuTrigger,
 } from "../../components/ui/dropdown-menu";
 import { MainContentSection } from "./sections/MainContentSection/MainContentSection";
