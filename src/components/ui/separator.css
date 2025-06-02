@@ -1,6 +1,7 @@
 .separator {
-  background-color: var(--border);
-  flex-shrink: 0;
+  background-color: var(--muted-foreground);
+  opacity: 0.2;
+  margin: 40px 0;
 }
 
 .separator-horizontal {
