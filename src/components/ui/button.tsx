@@ -1,5 +1,4 @@
 import React from 'react';
-import { Slot } from "@radix-ui/react-slot";
 import './button.css';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
