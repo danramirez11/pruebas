@@ -60,9 +60,7 @@ export const PlaylistPage = (): JSX.Element => {
                   </Avatar>
                   <ChevronDownIcon className="h-4 w-4 text-white" />
                 </Button>
-              <DropdownMenuContent align="end">
-                {/* Dropdown menu items would go here */}
-              </DropdownMenuContent>
+              <h1>hi</h1>
             </DropdownMenu>
           </div>
         </header>
