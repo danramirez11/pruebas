@@ -55,11 +55,10 @@ export const PlaylistPage = (): JSX.Element => {
                   className="p-0 h-[35px] flex items-center gap-1"
                 >
                   <Avatar className="h-[35px] w-[35px]">
-                    <AvatarImage
+                    <img
                       src="https://c.animaapp.com/mbe5abedTZBB62/img/user-profile.svg"
                       alt="User profile"
                     />
-                    <AvatarFallback>U</AvatarFallback>
                   </Avatar>
                   <ChevronDownIcon className="h-4 w-4 text-white" />
                 </Button>
