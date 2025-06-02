@@ -5,7 +5,6 @@ import {
 import { Button } from "../../components/ui/button";
 import {
   DropdownMenu,
-  DropdownMenuTrigger,
 } from "../../components/ui/dropdown-menu";
 import { MainContentSection } from "./sections/MainContentSection/MainContentSection";
 import { NavigationSidebarSection } from "./sections/NavigationSidebarSection/NavigationSidebarSection";
@@ -49,7 +48,6 @@ export const PlaylistPage = (): JSX.Element => {
             </div>
 
             <DropdownMenu>
-              <DropdownMenuTrigger asChild>
                 <Button
                   variant="ghost"
                   className="p-0 h-[35px] flex items-center gap-1"
@@ -62,7 +60,6 @@ export const PlaylistPage = (): JSX.Element => {
                   </Avatar>
                   <ChevronDownIcon className="h-4 w-4 text-white" />
                 </Button>
-              </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
                 {/* Dropdown menu items would go here */}
               </DropdownMenuContent>
