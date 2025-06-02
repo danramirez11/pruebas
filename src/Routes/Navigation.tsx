@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router-dom"
 
 const routes = createBrowserRouter([
   {
-    path: "/",
+    path: <PlaylistPage/>,
     element: <div>Welcome to the KRY Test App</div>,
     
   },
