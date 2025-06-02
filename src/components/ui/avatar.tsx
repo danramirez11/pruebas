@@ -1,5 +1,4 @@
 import React from 'react';
-import * as AvatarPrimitive from "@radix-ui/react-avatar";
 import './avatar.css';
 
 const Avatar = React.forwardRef<
