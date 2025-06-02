@@ -1,6 +1,6 @@
 import { BellIcon, ChevronDownIcon, SettingsIcon } from "lucide-react";
 import {
-  Avatar,
+  Avatar
 } from "../../components/ui/avatar";
 import { Button } from "../../components/ui/button";
 import {
