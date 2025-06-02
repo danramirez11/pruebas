@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router-dom"
-
+import { PlaylistPage } from '../Pages/Playlist/Playlist.tsx'
 
 const routes = createBrowserRouter([
   {
-    path: <PlaylistPage/>,
-    element: <div>Welcome to the KRY Test App</div>,
+    path: "/",
+    element: <PlaylistPage/>,
     
   },
   {
